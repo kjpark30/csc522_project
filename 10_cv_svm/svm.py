@@ -30,7 +30,7 @@ X_bow = count_vectorizer.fit_transform(X).toarray()
 
 skfolds = StratifiedKFold(n_splits=10, random_state=0)
 
-clf = SVC(kernel='rbf')
+clf = SVC(kernel='rbf', gamma='scale')
 
 accuracy_tfidf_six = []
 accuracy_bow_six = []
