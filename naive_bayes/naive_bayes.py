@@ -96,11 +96,13 @@ if __name__ == '__main__':
     print('\t')
     X_prep, y_six, y_two = prep_data()
 
-    # TODO: Pass the desired classifier to helper method...
+    # TODO: Make changes below and run the file!
     # ...
+    #
     # @Param: classifier => Any SciKit-Learn Classifier
     # @Param: n_folds => Number of Folds
     # @Param: desc => Name of Classifier
+    #
     # ...
     nb_helper(X_prep, y_six, y_two, classifier=GaussianNB(), n_folds=10, desc='Gaussian_NB')
     nb_helper(X_prep, y_six, y_two, classifier=MultinomialNB(), n_folds=10, desc='Multinomial_NB')
