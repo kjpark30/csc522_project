@@ -1,0 +1,85 @@
+
+6 Class Labels:
+
+half-true: 2627
+FALSE: 2507
+mostly-true: 2454
+barely-true: 2103
+TRUE: 2053
+pants-fire: 1047
+
+-----
+
+2 Class Labels:
+
+TRUE: 7134
+FALSE: 5657
+
+-----
+
+5 Fold CV Results for Gaussian_NB_TFiDF with 6 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.184664  0.206963   0.200935
+
+-----
+
+5 Fold CV Results for Gaussian_NB_BoW with 6 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.185127  0.210775   0.208344
+
+-----
+
+5 Fold CV Results for Gaussian_NB_TFiDF with 2 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.514275  0.772767   0.470145
+
+-----
+
+5 Fold CV Results for Gaussian_NB_BoW with 2 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.508799  0.814324   0.468226
+
+-----
+
+
+
+
+5 Fold CV Results for Multinomial_NB_TFiDF with 6 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.243740  0.209644   0.372619
+
+-----
+
+5 Fold CV Results for Multinomial_NB_BoW with 6 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.251565  0.231543   0.269543
+
+-----
+
+5 Fold CV Results for Multinomial_NB_TFiDF with 2 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.612979  0.320955   0.627027
+
+-----
+
+5 Fold CV Results for Multinomial_NB_BoW with 2 Class Labels:
+
+       accuracy    recall  precision
+
+max    0.618061  0.501326   0.580713
+
+-----

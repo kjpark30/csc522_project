@@ -1,0 +1,85 @@
+/Users/jaymindesai/PycharmProjects/fake-news-predictor/venv3.6/bin/python /Users/jaymindesai/PycharmProjects/fake-news-predictor/src/naive_bayes/nb.py
+
+6 Class Labels:
+
+half-true: 2627
+FALSE: 2507
+mostly-true: 2454
+barely-true: 2103
+TRUE: 2053
+pants-fire: 1047
+
+-----
+
+2 Class Labels:
+
+TRUE: 7134
+FALSE: 5657
+
+-----
+
+10 Fold CV Results for Gaussian_NB_TFiDF with 6 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.192790   0.214588   0.219471
+
+-----
+
+10 Fold CV Results for Gaussian_NB_BoW with 6 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.189655   0.214915   0.224690
+
+-----
+
+10 Fold CV Results for Gaussian_NB_TFiDF with 2 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.515649   0.789381   0.470460
+
+-----
+
+10 Fold CV Results for Gaussian_NB_BoW with 2 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.506260   0.824779   0.466466
+
+-----
+
+
+
+10 Fold CV Results for Multinomial_NB_TFiDF with 6 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.251567   0.215942   0.380003
+
+-----
+
+10 Fold CV Results for Multinomial_NB_BoW with 6 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.255486   0.233334   0.268198
+
+-----
+
+10 Fold CV Results for Multinomial_NB_TFiDF with 2 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.618936   0.345133   0.636364
+
+-----
+
+10 Fold CV Results for Multinomial_NB_BoW with 2 Class Labels:
+
+        accuracy     recall  precision
+
+max     0.625196   0.516814   0.588235
+
+-----
