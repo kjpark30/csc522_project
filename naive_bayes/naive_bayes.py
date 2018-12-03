@@ -4,6 +4,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.base import clone
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
+from sklearn.svm import SVC, LinearSVC
 from sklearn.metrics import accuracy_score, recall_score, precision_score
 
 from tokenizer import tokenize
@@ -104,5 +105,8 @@ if __name__ == '__main__':
     # @Param: desc => Name of Classifier
     #
     # ...
-    nb_helper(X_prep, y_six, y_two, classifier=GaussianNB(), n_folds=10, desc='Gaussian_NB')
-    nb_helper(X_prep, y_six, y_two, classifier=MultinomialNB(), n_folds=10, desc='Multinomial_NB')
+    # nb_helper(X_prep, y_six, y_two, classifier=GaussianNB(), n_folds=10, desc='Gaussian_NB')
+    # TODO: Run LinearSVC first and then SVC..
+    nb_helper(X_prep, y_six, y_two, classifier=LinearSVC(random_state=100), n_folds=10, desc='LinearSVC')
+    # nb_helper(X_prep, y_six, y_two, classifier=SVC(random_state=100, gamma='scale'), n_folds=10, desc='LinearSVC')
+
